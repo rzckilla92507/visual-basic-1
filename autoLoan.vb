@@ -53,7 +53,7 @@
         'If the user has not selected a creit rating, inform
         'the user that a credit rating must be entered and then
         'exit the procedure
-        If cmbCreditRating.Text = " " Then
+        If cmbCreditRating.Text = "" Then
             MessageBox.Show("Please enter the customer's credit rating in the credit rating box.", "No Credit Rating")
             cmbCreditRating.Focus()
             Exit Sub
